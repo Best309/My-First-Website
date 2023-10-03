@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nattapong Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/30647d30cd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Prompt:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- เมนูข้างบน -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Game Website</a>
+            <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target = "#navbar01">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar01" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#Mymodal">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ภาพสไลด์ -->
+    <section id="slider">
+        <div class="carousel slide"  data-bs-ride="carousel" id="myslider">
+            <ol class="carousel-indicators">
+                <button  data-bs-target="#myslider" data-bs-slide-to="0" class="active"></button>
+                <button  data-bs-target="#myslider" data-bs-slide-to="1" ></button>
+                <button  data-bs-target="#myslider" data-bs-slide-to="2" ></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active " >
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Genshin impact</h1>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Armored core VI</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nihil sapiente fuga repudiandae cumque, amet dolorum necessitatibus nemo sint assumenda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Subnautica</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, modi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#myslider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#myslider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fa-brands fa-unity fa-3x mb-2"></i>
+                    <h3>การสร้างเกมด้วย Unity</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti tempore eos reiciendis non?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-gamepad fa-3x mb-2"></i>
+                    <h3>การสร้างเกมด้วย Unreal</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti tempore eos reiciendis non?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-brands fa-html5 fa-3x mb-2"></i>
+                    <h3>การสร้างเว็ปด้วย HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti tempore eos reiciendis non?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="p-5">
+        <div class = "dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>About me</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quo libero, odit sit voluptatem maxime exercitationem eligendi. Facere dolores repudiandae a unde, cupiditate eum ab, deserunt, nulla eaque nostrum doloremque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery" class="p-5">
+        <div class="container">
+            <h1 class="text-center">แฟ้มสะสมผลงาน</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reprehenderit voluptatum voluptatem cupiditate quae iusto.</p>
+            <!-- image -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003653/e5cad4cafbd813b89817c25926c1690760a789e206776d70ae601af53b12582e" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5nc82810RKUN9VdkSXt6MhuxGTkOfNS5HWo2r5FOLMWLXClSlE3.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://www.internetmatters.org/wp-content/uploads/2020/08/roblox.jpg" class="img-fluid">
+                </div>
+            </div>
+            <!-- image-2  -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://i.ytimg.com/vi/TX2qD_BKxVg/maxresdefault.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://uploadstatic-sea.hoyoverse.com/bh3/upload/event/201909/share-seaglb_1568196595_4429.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltc5e8f5bdb29916db/64cd4c11c45759478fa1f861/S6_Overview_Thumbnail.jpg" class="img-fluid">
+                </div>
+            </div>
+            <!-- image-3  -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://www.20i.com/blog/wp-content/uploads/2022/08/git-blog-header.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhoG86pcBF1VPHbUY7AXflXzAykTr7RlqeW8OTp18SJ0aOXGPuL9kFYy1uQO76aBD-B8B10GNkYY6s38FhilYP0johqQTpsBoXIiCQZDNkcS47FGLaErrdFr2OG7cgimikOyeCpUVRz5zHVbZG8JYJGCk5JPuPzX9E4WUYT1KHNqpcDr2eR2BME5Y4uOA=s16000" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://api.reliasoftware.com/uploads/the_complete_guide_to_mobile_app_development_2021_ded2abd1b1.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- อ้างอิงผู้สร้าง -->
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; Nattapong pongcatornvorachot 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal  -->
+    <div class="modal fade" id="Mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="example@gmail.com" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Topic</label>
+                            <input type="text"  placeholder="About your situation" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Information</label>
+                            <textarea class="form-control" cols="30" rows="10"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary btn" data-bs-dismiss="modal">Cancel</button>
+                    <button class="btn-success btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

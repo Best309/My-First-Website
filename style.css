@@ -1,0 +1,39 @@
+*{
+    font-family: 'Anuphan', sans-serif;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url(Image/Genshin.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background-image: url(Image/Armored.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background-image: url(Image/Subnautica.png);
+    background-size: cover;
+}
+
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url(Image/sky.jpg);
+    background-image: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
